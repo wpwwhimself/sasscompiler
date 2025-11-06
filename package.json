@@ -1,0 +1,17 @@
+{
+  "name": "sasscompiler",
+  "version": "1.0.0",
+  "description": "Compiles SASS string into CSS and serves it back",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Wojciech Przybyła",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "sass": "^1.93.3"
+  }
+}
