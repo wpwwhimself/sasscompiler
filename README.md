@@ -1,8 +1,3 @@
 ## dev
 
-### autostart server
-
-1. add to crontab:
-```cron
-@reboot /path/to/repo/start_server.sh 
-```
+I run it with `pm2` holding the server.
